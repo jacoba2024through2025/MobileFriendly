@@ -1,0 +1,173 @@
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: .1875em 0.25em rgb(12, 100, 231)
+
+}
+
+
+
+body {
+    
+    padding: 0;
+    position: relative;
+    background-image: url('https://s24806.pcdn.co/wp-content/uploads/2023/02/JohnCarmackBinaryBlue_970__binary_MNS2710_full-BW.jpg');
+    background-size: cover;
+    background-position: center;
+    /* 5a5c9f */
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    
+    
+    
+    
+    
+}
+
+
+    
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 0.0625em 0.0625em rgb(12, 100, 231);
+    
+}
+
+
+
+.column {
+    flex: 1;
+    padding: 0 0.625em; 
+}
+
+.column img {
+    width: 100%; 
+    height: 18.75em; 
+    object-fit: cover; 
+    border: 0.3125em solid rgb(12, 100, 231); 
+
+    border-style: inset;
+    display: block;
+    
+}
+
+table, th, td {
+    border: 0.3125em solid rgb(12, 9, 194);
+    border-style: groove;
+    color: white;
+}
+
+tr {
+    background-color: rgb(23, 100, 231);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5 {
+    margin-left: auto;
+    margin-top: auto;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: medium;
+    text-shadow: 0.0625em 0.0625em rgb(12, 100, 231);
+}
+
+ul {
+    text-align: center;
+    color: white;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+
+a:link {
+    
+    text-align:left;
+    color: white;
+  }
+  
+  
+  a:visited {
+    color: rgb(234, 27, 234);
+
+  }
+  
+  
+  a:hover {
+    color: lightblue;
+  }
+  
+  
+  a:active {
+    color: cyan;
+  }
+
+iframe {
+    border: 0.0625em solid white;
+    border-style: inset;
+    border: 0.3125em solid rgb(12, 100, 231);
+    display: block
+}
+
+.center-links {
+    
+    text-align: center;
+    background-color: rgb(12, 100, 231);
+    padding: 1%;
+    border-radius: 3%;
+    margin-left: 20%;
+    margin-right: 10%;
+    max-width: 55%;
+    
+
+}
+
+.center-links a{
+    
+    display: block;
+    margin: 1% 0;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+}
+
+.responsive {
+    width: 100%;
+    height: 50%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        justify-content: space-between; 
+        margin: 1.25em auto; 
+        max-width: 56.25em; 
+        padding: 0;
+    
+        
+        
+    }
+}
+
